@@ -29,6 +29,13 @@ class OneTimePassword extends \Krtv\SingleSignOn\Model\OneTimePassword
     protected $password;
 
     /**
+     * @var string $username
+     *
+     * @ORM\Column(name="username", type="string", options={"default":""})
+     */
+    protected $username;
+
+    /**
      * @var string $hash
      *
      * @ORM\Column(name="hash", type="string", unique=true)
