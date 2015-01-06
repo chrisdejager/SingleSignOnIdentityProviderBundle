@@ -20,7 +20,7 @@
         "doctrine/orm": ">=2.3",
         "symfony/symfony": ">=2.2",
 
-        "korotovsky/sso-library": "dev-feature/otp-username",
+        "korotovsky/sso-library": "dev-feature/otp-username-serviceurl",
 
         "ext-openssl": "*"
     },
