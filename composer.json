@@ -14,12 +14,6 @@
             "email": "dmitry@korotovsky.io"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/chrisdejager/SingleSignOnLibrary.git"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
 
